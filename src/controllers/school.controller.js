@@ -13,7 +13,8 @@ exports.create = (req, res) => {
     const school = {
         name: req.body.name,
         lat: req.body.lat,
-        lng: req.body.lng
+        lng: req.body.lng,
+        address: req.body.address
     }
 
     School.create(school)
