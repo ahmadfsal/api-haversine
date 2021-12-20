@@ -5,7 +5,7 @@ const cors = require('cors')
 const app = express()
 
 let corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: '*',
     Headers: {
         'Access-Control-Allow-Origin': '*'
     }

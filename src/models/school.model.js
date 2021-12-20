@@ -10,7 +10,7 @@ module.exports = (sequelize, Sequelize) => {
             type: Sequelize.DECIMAL(12, 6)
         },
         address: {
-            type: Sequelize.DECIMAL(255)
+            type: Sequelize.STRING(255)
         }
     })
 
